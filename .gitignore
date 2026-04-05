@@ -1,4 +1,4 @@
-.dart_tool/
+﻿.dart_tool/
 .packages
 .pub/
 build/
@@ -26,8 +26,10 @@ WEBNIDA/frontend/.env
 WEBNIDA/frontend/.env.local
 
 # WEBNIDA deploy/build artifacts & caches
-WEBNIDA/deploy/
 WEBNIDA/tools/composer-cache/
 WEBNIDA/frontend/*.log
 WEBNIDA/frontend/next-env.d.ts
 WEBNIDA/tools/npm-cache/
+# WEBNIDA deploy folder (tracked) - ignore heavy caches
+WEBNIDA/deploy/**/node_modules/
+WEBNIDA/deploy/frontend/.next/cache/
